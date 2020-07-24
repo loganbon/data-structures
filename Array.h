@@ -8,10 +8,13 @@ private:
 
 public:
     Array() {};
+
     constexpr size_t size() { return N; };
     T& operator[](int idx) { return m_Data[idx]; };
     const T& operator[](int idx) const { return m_Data[idx]; };
 
+    T* begin() { return &m_Data[0]; }
+    T* end() { return &m_Data[N]; }
 };
 
 
