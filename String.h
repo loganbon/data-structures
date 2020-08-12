@@ -1,7 +1,3 @@
-//
-// Created by Logan Bontrager on 7/19/20.
-//
-
 #ifndef DATA_STRUCTURES_STRING_H
 #define DATA_STRUCTURES_STRING_H
 
